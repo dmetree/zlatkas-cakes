@@ -82,8 +82,6 @@ button:focus {
 }
 
 ul, li, ol {
-     margin: 10px;
-     padding: 0px;
      list-style: none;
 }
 
@@ -811,10 +809,26 @@ header .container-fluid {
 
 .menu-inside {
      display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     padding: 10px;
+}
+.menu-inside:hover{
+     background-color: whitesmoke;
+}
+
+.callme {
+     padding: 10px;
+     border-radius: 10px;
 }
 
 .callme :hover {
-     font-size: 18px;
+     color: blue;
+}
+
+.city {
+     font-size: 16px;
 }
 
 .media-wrapper {
@@ -827,8 +841,9 @@ header .container-fluid {
      padding: 20px;
      border-radius: 20px;
 }
-.media-icon:hover{
-     background-color: coral;
+
+.media-icon:hover {
+     background-color: white;
 }
 
 .main_form {
