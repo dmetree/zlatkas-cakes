@@ -348,7 +348,11 @@ header .container-fluid {
      margin-left: 45px;
      color: #eaeaea;
      font-weight: 400;
-     float: left;
+}
+
+.phone_img {
+     width: 26px;
+     margin-right: 8px;
 }
 
 .right_header_info ul li a {
@@ -790,11 +794,11 @@ header .container-fluid {
 }
 
 .logo {
-     /* width: ; */
-     height: 80px;
+     height: 60px;
 }
 
 .top-menu {
+     margin: 0 5vw;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -809,10 +813,22 @@ header .container-fluid {
      display: flex;
 }
 
-.dinone {
+.callme :hover {
+     font-size: 18px;
+}
+
+.media-wrapper {
      display: flex;
-     align-items: center;
-     justify-content: flex-end;
+     justify-content: center;
+}
+
+.media-icon {
+     width: 90px;
+     padding: 20px;
+     border-radius: 20px;
+}
+.media-icon:hover{
+     background-color: coral;
 }
 
 .main_form {
