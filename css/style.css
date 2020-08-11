@@ -812,14 +812,15 @@ header .container-fluid {
      justify-content: center;
      align-items: center;
      border-radius: 10px;
-     padding: 10px;
+     padding: 10px 5px;
 }
-.menu-inside:hover{
+
+.menu-inside:hover {
      background-color: whitesmoke;
 }
 
 .callme {
-     padding: 10px;
+     padding: 10px 0;
      border-radius: 10px;
 }
 
@@ -1171,4 +1172,18 @@ a.article, a.article:hover {
      font-weight: bold;
      color: #fff;
      font-weight: 500;
+}
+
+@media only screen and (min-width: 600px) {
+     .callme {
+          padding: 10px;
+          border-radius: 10px;
+     }
+     .menu-inside {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+          padding: 10px;
+     }
 }
